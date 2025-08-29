@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience - Regie D. Tadeja</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="experience.html" class="active"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="skills.html"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+    <ul>
+      <li><strong>Logistics Assistant</strong> – Crimson Group Inc. (Nov 2019 – Present)</li>
+      <li><strong>Customer Service Specialist / In-plant Assistant</strong> – Yusen Logistics Philippines (2018 – 2019)</li>
+      <li><strong>Marketing Assistant</strong> – Hyundai Merchant Marine Phils. (2016 – 2018)</li>
+      <li><strong>Customer Service Representative</strong> – EcotechPhil Corporation (2016)</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Regie D. Tadeja | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

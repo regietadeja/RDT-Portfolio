@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills - Regie D. Tadeja</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="experience.html"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="skills.html" class="active"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2><i class="fas fa-tools"></i> Skills & Licenses</h2>
+    <ul>
+      <li><i class="fas fa-id-badge"></i> Licensed Customs Broker (2015)</li>
+      <li><i class="fas fa-gavel"></i> Knowledgeable in Customs Regulations & Tariff Classification</li>
+      <li><i class="fas fa-comments"></i> Strong communication & interpersonal skills</li>
+      <li><i class="fas fa-people-carry"></i> Flexible, hardworking, and result-oriented</li>
+      <li><i class="fas fa-laptop"></i> Computer literate</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Regie D. Tadeja | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Regie D. Tadeja</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="experience.html"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="skills.html"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:regiedevilla15@gmail.com">regiedevilla15@gmail.com</a></p>
+    <p><i class="fas fa-phone"></i> Mobile: 0912-824-9796</p>
+    <p><i class="fas fa-map-marker-alt"></i> Address: Primavera Phase II, Darasa Tanauan City, Batangas</p>
+
+    <h3>Send Me a Message</h3>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+      <label for="name"><i class="fas fa-user"></i> Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message"><i class="fas fa-comment"></i> Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+    </form>
+
+    <h3><i class="fas fa-users"></i> Character References</h3>
+    <ul>
+      <li><strong>Ms. Maricel Javier</strong><br>
+          CSR Assistant Manager, HMM PHILS CO INC<br>
+          📱 0923-657-8991 (Smart)</li>
+      <li><strong>Mr. Elpidio M. Rodrigo</strong><br>
+          Former Warehouse & Logistics Manager<br>
+          📱 +63 927 402 0190</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Regie D. Tadeja | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
