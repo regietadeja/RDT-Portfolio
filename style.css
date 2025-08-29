@@ -4,39 +4,34 @@ body {
   margin: 0;
   background: #f9f9f9;
   color: #333;
-  scroll-behavior: smooth;
+  line-height: 1.6;
 }
-header {
-  background: #2c3e50;
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+  border-bottom: 1px solid #ddd;
 }
-nav ul {
-  display: flex;
+section h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  border-left: 5px solid #e67e22;
+  padding-left: 10px;
+}
+ul {
   list-style: none;
-  justify-content: center;
-  margin: 0;
   padding: 0;
 }
-nav ul li {
-  margin: 0 15px;
+ul li {
+  margin-bottom: 12px;
 }
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 8px 12px;
-  transition: all 0.3s ease;
+ul li i {
+  color: #e67e22;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
 }
-nav ul li a:hover,
-nav ul li a.active {
-  background: #e67e22;
-  border-radius: 5px;
-  transform: scale(1.1);
-}
-nav ul li a i {
-  margin-right: 6px;
+ul li:hover i {
+  transform: rotate(15deg);
 }
 
 /* Hero */
@@ -64,35 +59,6 @@ nav ul li a i {
 .btn:hover {
   background: #d35400;
   transform: scale(1.05);
-}
-
-/* Sections */
-section {
-  max-width: 900px;
-  margin: auto;
-  padding: 50px 20px;
-}
-section h2 {
-  margin-bottom: 20px;
-  color: #2c3e50;
-  border-bottom: 2px solid #e67e22;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-ul li {
-  margin-bottom: 12px;
-}
-ul li i {
-  color: #e67e22;
-  margin-right: 8px;
-  transition: transform 0.3s ease;
-}
-ul li:hover i {
-  transform: rotate(15deg);
 }
 
 /* Contact Form */
