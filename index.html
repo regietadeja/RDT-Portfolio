@@ -8,23 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
-        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-        <li><a href="#references"><i class="fas fa-users"></i> References</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <!-- Hero / Home -->
-  <section id="home" class="hero">
+  <section class="hero">
     <img src="profile.jpg" alt="Profile Photo" class="profile">
     <h1>Regie D. Tadeja</h1>
     <p><i class="fas fa-certificate"></i> Licensed Customs Broker | <i class="fas fa-shipping-fast"></i> Logistics Professional</p>
@@ -32,13 +18,13 @@
   </section>
 
   <!-- About -->
-  <section id="about">
+  <section>
     <h2><i class="fas fa-user"></i> About Me</h2>
     <p>I am looking for a suitable job and an opportunity where I could practice my knowledge and develop my personality as a career person while utilizing my skills and bringing out the best of my potentials for the glory of God and for the benefit of my employer, the community, and myself in preparation for future advancement to top management.</p>
   </section>
 
   <!-- Experience -->
-  <section id="experience">
+  <section>
     <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
     <ul>
       <li><strong>Logistics Assistant</strong> – Crimson Group Inc. (Nov 2019 – Present)</li>
@@ -49,7 +35,7 @@
   </section>
 
   <!-- Education -->
-  <section id="education">
+  <section>
     <h2><i class="fas fa-graduation-cap"></i> Education</h2>
     <p><strong>Bachelor of Science in Customs Administration</strong><br>Batangas State University (2011 – 2015)</p>
     <p>Secondary: Wenceslao Trinidad Memorial National High School (2007 – 2011)</p>
@@ -57,7 +43,7 @@
   </section>
 
   <!-- Skills -->
-  <section id="skills">
+  <section>
     <h2><i class="fas fa-tools"></i> Skills & Licenses</h2>
     <ul>
       <li><i class="fas fa-id-badge"></i> Licensed Customs Broker (2015)</li>
@@ -69,7 +55,7 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section>
     <h2><i class="fas fa-envelope"></i> Contact</h2>
     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:regiedevilla15@gmail.com">regiedevilla15@gmail.com</a></p>
     <p><i class="fas fa-phone"></i> Mobile: 0912-824-9796</p>
@@ -91,7 +77,7 @@
   </section>
 
   <!-- References -->
-  <section id="references">
+  <section>
     <h2><i class="fas fa-users"></i> Character References</h2>
     <ul>
       <li><strong>Ms. Maricel Javier</strong><br>
@@ -108,16 +94,5 @@
     <p>© 2025 Regie D. Tadeja | All Rights Reserved</p>
   </footer>
 
-  <!-- Smooth Scrolling Script -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-          behavior: "smooth"
-        });
-      });
-    });
-  </script>
 </body>
 </html>
